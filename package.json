@@ -2,6 +2,7 @@
   "name": "localize-brick",
   "version": "0.0.3",
   "description": "Localize brick for Appmaker",
+  "preferGlobal": true,
   "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

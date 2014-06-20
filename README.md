@@ -15,13 +15,13 @@ npm install -g localize-brick
 Run:
 
 ``` bash
-localize-brick
+localize
 ```
 
 It will look for `<ceci-definition>` and grab the JSON inside its children.
 ```
 ╭─ali@ali  ~/work/personal/localize-brick  ‹master›
-╰─$ node localize-brick
+╰─$ node localize
 
 { 'ceci-double-button/description': 'Broadcasts a "click" when clicked.',
   'ceci-double-button/name': 'Double Button',

@@ -1,6 +1,6 @@
 {
   "name": "localize-brick",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Localize brick for Appmaker",
   "preferGlobal": true,
   "main": "",

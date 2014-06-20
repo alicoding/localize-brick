@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 /*
  * localize-brick
  * https://github.com/alicoding/grunt-localize-brick

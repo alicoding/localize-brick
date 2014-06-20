@@ -34,12 +34,15 @@ module.exports = function () {
       if (error) {
         console.error(error);
       } else {
-        for (var i = 0; i < dom[0].children.length - 1; i++) {
-          if (dom[0].children[i].name && dom[0].children[i].name === 'ceci-definition') {
-            console.log();
-            var x = JSON.parse(dom[0].children[i].children[0].raw);
-            content = myReduce(dom[0].attribs.name, x, ['name', 'label', 'description']);
-            console.log(content);
+        for (var m = 0; m < dom.length - 1; m ++) {
+          if (dom[m].name === 'polymer-element') {
+            for (var i = 0; i < dom[m].children.length - 1; i++) {
+              if (dom[m].children[i].name && dom[m].children[i].name === 'ceci-definition') {
+                var x = JSON.parse(dom[m].children[i].children[0].raw);
+                content = myReduce(dom[m].attribs.name, x, ['name', 'label', 'description']);
+                console.log(content);
+              }
+            }
           }
         }
       }

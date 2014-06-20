@@ -26,7 +26,7 @@
     "localize": "./bin/index.js"
   },
   "homepage": "https://github.com/alicoding/localize-brick",
-  "devDependencies": {
+  "dependencies": {
     "htmlparser": "^1.7.7",
     "inquirer": "^0.5.1",
     "lodash": "^2.4.1"

@@ -1,0 +1,33 @@
+{
+  "name": "localize-brick",
+  "version": "0.0.1",
+  "description": "Localize brick for Appmaker",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alicoding/localize-brick"
+  },
+  "keywords": [
+    "appmaker",
+    "brick",
+    "mozilla",
+    "Localize"
+  ],
+  "author": "Ali Al Dallal",
+  "license": "Mozilla Public License",
+  "bugs": {
+    "url": "https://github.com/alicoding/localize-brick/issues"
+  },
+  "bin": {
+    "localize": "./bin/index.js"
+  },
+  "homepage": "https://github.com/alicoding/localize-brick",
+  "devDependencies": {
+    "htmlparser": "^1.7.7",
+    "inquirer": "^0.5.1",
+    "lodash": "^2.4.1"
+  }
+}
